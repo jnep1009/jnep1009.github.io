@@ -807,6 +807,12 @@ h6 small {
     max-width: calc(100% - 80px);
 }
 
+.wrapper.landing {
+    width: 75%;
+    margin: 0 auto;
+    max-width: calc(100% - 80px);
+}
+
 .wrapper-small {
     width: 780px;
 }
