@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- saved from url=(0081)https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_resizeby_resizeto -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body contenteditable="false">
+
+<p>Open a new window, and resize the width and height of the new window.</p>
+
+<button onclick="openWin()">Create window</button>
+<button onclick="resizeWinTo()">Resize the window to 800px * 600px</button>
+<button onclick="resizeWinBy()">Make the new window smaller</button>
+
+<script>
+var myWindow;
+
+function openWin() {
+    myWindow = window.open("", "", "width=1000, height=1000");
+}
+
+function resizeWinTo() {
+    myWindow.resizeTo(800, 600);
+    myWindow.focus();
+}
+
+function resizeWinBy() {
+    myWindow.resizeBy(-100, -50);
+    myWindow.focus();
+}
+</script>
+
+
+
+</body></html>

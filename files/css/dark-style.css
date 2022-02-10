@@ -1,0 +1,318 @@
+/*-----------------------------------------------------------------------------------
+
+		DARK THEME STYLE
+	
+----------------------------------------------------------------------------------- */
+
+/* General
+---------------------------------------- */
+body {
+	color: rgba(255,255,255,0.7); 
+	background: #000000;
+	}
+	.text-dark { color: rgba(0,0,0,0.6); }
+
+::selection { background:rgba(255,255,255,0.10); color:#ffffff; }
+::-moz-selection { background:rgba(255,255,255,0.10); color:#ffffff; }
+::-webkit-selection { background:rgba(255,255,255,0.10); color:#ffffff; }
+
+.text-dark ::selection { background:rgba(0,0,0,0.05); color:#000000; }
+.text-dark ::-moz-selection { background:rgba(0,0,0,0.05); color:#000000; }
+.text-dark ::-webkit-selection { background:rgba(0,0,0,0.05); color:#000000; }
+
+
+/* Headings
+---------------------------------------- */
+h1, h2, h3, h4, h5, h6 { color: #ffffff; }
+	.text-dark h1, .text-dark h2, .text-dark h3, .text-dark h4, .text-dark h5, .text-dark h6,
+	h1.text-dark, h2.text-dark, h3.text-dark, h4.text-dark, h5.text-dark, h6.text-dark { color: #000000; }
+
+.title-alt { 
+	color: rgba(255,255,255,0.5); 
+	}
+	.text-dark .title-alt { color: rgba(0,0,0,0.35) !important; }
+
+/* headings with link */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #ffffff; }
+.text-dark h1 a, .text-dark h2 a, .text-dark h3 a, .text-dark h4 a, .text-dark h5 a, .text-dark h6 a { color: #000000; }
+
+
+
+/* Forms
+---------------------------------------- */
+::-webkit-input-placeholder { color: #ffffff; }
+:-moz-placeholder { color: #ffffff; }
+::-moz-placeholder { color: #ffffff; }
+:-ms-input-placeholder { color: #ffffff; }
+
+.text-dark ::-webkit-input-placeholder { color: #000000; }
+.text-dark :-moz-placeholder { color: #000000; }
+.text-dark ::-moz-placeholder { color: #000000; }
+.text-dark :-ms-input-placeholder { color: #000000; }
+
+input[type=text], input[type=password], input[type=email], input[type=number],input[type=tel], textarea {
+	border: 1px solid rgba(255,255,255,0.30);
+	color: #ffffff;
+	}
+	.text-dark:not(.transparent) input[type=text], .text-dark:not(.transparent) input[type=password], .text-dark:not(.transparent) input[type=email], .text-dark:not(.transparent) input[type=number], .text-dark:not(.transparent) input[type=tel], .text-dark:not(.transparent) textarea { color: #ffffff; border-color: rgba(0,0,0,0.20); }
+		
+input[type=submit], input[type=button], .button, button {
+	color: #000000;
+	background: #ffffff;
+	}
+	.text-dark input[type=submit], .text-dark input[type=button], .text-dark .button, .text-dark button {  background: #000000; color: #ffffff; }
+
+input[type=submit]:hover, input[type=button]:hover, .button:hover, button:hover { background: rgba(255,255,255,0.85); color: #000000;  }
+.text-dark input[type=submit]:hover, .text-dark input[type=button]:hover, .text-dark .button:hover, .text-dark button:hover { background: rgba(0,0,0,0.8); color: #ffffff;  }
+	
+select {
+	border: 1px solid rgba(255,255,255,0.30);
+	color: #ffffff;
+	background-image:url(../assets/select-arrow-light.png);
+	}
+	.text-dark select { color: #000000; border-color: rgba(0,0,0,0.20); background-image:url(../assets/select-arrow.png); }
+	
+label {
+	color: rgba(255,255,255,0.5);
+	}
+	.text-dark label { color: rgba(0,0,0,0.35); }
+	
+label abbr { 
+	color: rgba(255,255,255,0.5);
+	}
+	.text-dark abbr { color: rgba(0,0,0,0.35); }
+
+	
+
+/* Links
+---------------------------------------- */
+a {
+	color: #ffffff;
+	}
+	a:hover { color: rgba(255,255,255,0.7); }
+	
+.text-dark a, a.text-dark  { color: #000000; }
+.text-dark a:hover, a.text-dark:hover { color: rgba(0,0,0,0.6); }
+
+p a:not(.entry-navigation__item):not(.post-edit-link):not(.fancybox):not(.button):not(.image-text-link) {
+	border-bottom: 1px solid #ffffff;
+	}
+	.text-dark p a:not(.entry-navigation__item):not(.post-edit-link):not(.fancybox):not(.button):not(.image-text-link) { border-color: #000000; }
+
+
+/* List
+---------------------------------------- */
+ul.biglist li, ol.biglist li, ul.nolist li, ol.nolist li {
+	color: #ffffff;
+	}
+	.text-dark ul.biglist li, .text-dark ol.biglist li, .text-dark ul.nolist li, .text-dark ol.nolist li { color: #000000; }
+
+
+/* Others
+---------------------------------------- */
+blockquote {
+	color: #ffffff;
+	}
+	.text-dark blockquote, blockquote.text-dark { color: #000000; }
+	
+blockquote > p a { color: #ffffff; }
+blockquote > p a:hover { color: rgba(255,255,255,0.7);  }
+	
+blockquote cite {
+	color: rgba(255,255,255,0.7);
+	}
+	.text-dark blockquote cite, blockquote.text-dark cite { color: rgba(0,0,0,0.6); }
+
+pre {
+	background: rgba(255,255,255,0.12);
+	}
+	.text-dark pre { background: rgba(0,0,0,0.06); }
+
+code {
+	background: rgba(255,255,255,0.12);
+	}
+	.text-dark code { background: rgba(0,0,0,0.06); }
+
+/*---------------------------------------------- 
+
+2. GENERAL ELEMENTS
+
+------------------------------------------------*/
+	
+/* icons */
+i[class*='ion-'], i[class*='fa-'] { color: #ffffff; }
+.text-dark i[class*='ion-'], .text-dark i[class*='fa-'] { color: #000000; }
+
+
+/* switch logo appearance */
+header #logo img#dark-logo { opacity: 0; visibility: hidden; }
+header #logo img#dark-logo + img#light-logo { opacity: 1; visibility: visible; }
+
+.loading-end header:not(.hero-invisible) #logo.text-dark img#dark-logo { opacity: 0; visibility: hidden; }
+	.loading-end header:not(.hero-invisible) #logo.text-dark img#dark-logo + img#light-logo { opacity: 1; visibility: visible; }
+body:not(.loading-end) #page-loader.show-logo.text-dark + #page-content #logo img#dark-logo { opacity: 0; visibility: hidden; }
+	body:not(.loading-end) #page-loader.show-logo.text-dark + #page-content #logo img#dark-logo + img#light-logo { opacity: 1; visibility: visible; }
+
+/* depending on the fullwidth text light section */
+body #logo.bg-light img#dark-logo { opacity: 0; visibility: hidden; }
+	body #logo.bg-light img#dark-logo + img#light-logo { opacity: 1; visibility: visible; }
+
+header.menu-is-open #logo img#dark-logo,
+header.action-is-active #logo img#dark-logo{ opacity: 1 !important; visibility: visible !important; }
+	header.menu-is-open #logo img#dark-logo + img#light-logo,
+	header.action-is-active #logo img#dark-logo + img#light-logo { opacity: 0 !important; visibility: hidden !important; }
+header.text-light.menu-is-open #logo img#dark-logo,
+header.text-light.action-is-active #logo img#dark-logo { opacity: 0 !important; visibility: hidden !important; }
+	header.text-light.menu-is-open #logo img#dark-logo + img#light-logo,
+	header.text-light.action-is-active #logo img#dark-logo + img#light-logo { opacity: 1 !important; visibility: visible !important; }
+
+
+/*---------------------------------------------- 
+
+8. HERO / PAGETITLE
+
+------------------------------------------------*/
+#hero.text-dark { background: #ffffff; }
+
+	
+
+/*---------------------------------------------- 
+
+9. PORTFOLIO
+
+------------------------------------------------*/
+.portfolio-category {
+	color: rgba(255,255,255,0.5);
+	}
+	.text-dark .portfolio-category { color: rgba(0,0,0,0.35); }
+
+
+/*---------------------------------------------- 
+
+10. BLOG
+
+------------------------------------------------*/
+.post-date {
+	color: rgba(255,255,255,0.5);
+	}
+	.text-dark .post-date { color: rgba(0,0,0,0.35); }
+
+#page-title .post-date {
+	color: rgba(255,255,255,0.65);
+	}
+	.text-dark #page-title .post-date, #page-title.text-dark  .post-date { color: rgba(0,0,0,0.65); }
+	
+
+	
+/*---------------------------------------------- 
+
+11. COMMENTS
+
+------------------------------------------------*/
+
+/* Comments 
+----------------------------*/
+.comments .time {
+	color: rgba(255,255,255,0.5);
+	}
+	.text-dark .comments .time { color: rgba(0,0,0,0.35); }
+
+
+/*---------------------------------------------- 
+
+13. PAGINATION
+
+------------------------------------------------*/	
+.pagination li a {
+	color: #ffffff;
+	}
+	.text-dark .pagination li a { color: #000000; }
+	
+
+
+/*---------------------------------------------- 
+
+18. ANIMATIONS (portfolio, hero, text, ...)
+
+------------------------------------------------*/
+.do-anim-modern::after {
+	background: #262626;
+	}
+	.text-dark .do-anim-modern::after { background: #f2f2f2; }
+
+
+
+/*---------------------------------------------- 
+
+19. ELEMENTS
+
+------------------------------------------------*/
+
+/*	Buttons
+-------------------------------------------------*/
+.sr-button {
+	background: #ffffff;
+	color: #000000 !important;
+	}
+	.text-dark .sr-button { background: #000000; color: #ffffff !important; }
+	.sr-button:not(.header-button):hover { background: rgba(255,255,255,0.85); }
+	.text-dark .sr-button:not(.header-button):hover { background: rgba(0,0,0,0.8); }
+
+.sr-button.style-2 {  background: rgba(255,255,255,0.22) !important; color: #ffffff !important; }
+.sr-button.style-2:hover { background: rgba(255,255,255,0.34) !important; color: #ffffff !important; }
+	.text-dark .sr-button.style-2 { background: rgba(0,0,0,0.08) !important; color: #000000 !important; }
+	.text-dark .sr-button.style-2:hover { background: rgba(0,0,0,0.14) !important; color: #000000 !important; }
+
+.sr-button.style-3 { color: #ffffff !important; border-color: #ffffff !important; }
+.sr-button.style-3:hover { color: rgba(255,255,255,0.75) !important; }
+	.text-dark .sr-button.style-3 { color: #000000 !important; border-bottom: 2px solid #000000 !important; }
+	.text-dark .sr-button.style-3:hover { color: rgba(0,0,0,0.65) !important; }
+
+
+/* icon button */	
+.sr-button-icon {
+	background: #ffffff;
+	color: #000000;
+	}
+	.text-dark .sr-button-icon { background: #000000; color: #ffffff; }
+	.sr-button-icon i { color: #000000; }
+	.text-dark .sr-button-icon i { color: #ffffff; }
+	
+	
+	
+/*	team member
+-------------------------------------------------*/		
+.team-role {
+	color: rgba(255,255,255,0.5);
+	}
+	.text-dark .team-role { color: rgba(0,0,0,0.35); }
+	
+	
+
+/*---------------------------------------------- 
+
+20. WIDGETS
+
+------------------------------------------------*/
+.widget ul:not(.socialmedia-widget) li a {
+	color: #ffffff;
+	}
+	.widget ul:not(.socialmedia-widget) li a:hover { color: rgba(255,255,255,0.5);  }
+	.text-dark .widget ul:not(.socialmedia-widget) li a { color: #000000; }
+	.text-dark .widget ul:not(.socialmedia-widget) li a:hover { color: rgba(0,0,0,0.5); }
+
+
+/* Social Media Widget
+-------------------------------- */	
+.socialmedia-widget li a {
+	color: #ffffff;
+	}
+	.text-dark:not(.transparent) .socialmedia-widget li a { color: #000000; }	
+
+	
+	
+/* isotope */
+.load-isotope:after {
+	background: #ffffff;
+	}
+	.text-dark .load-isotope:after { background: #000000; }

@@ -1,0 +1,173 @@
+/*-----------------------------------------------------------------------------------
+
+
+
+
+		R E A D   T H I S
+		-----------------
+		
+		Copy all the rules you want to change to your custom css file.
+				
+
+
+
+/* -----------------------------------------------------------------------------------
+	
+	FONT FAMILY
+	___________
+	
+	Replace your fonts as needed for the different Elements
+
+----------------------------------------------------------------------------------- */
+body,
+input[type=text], input[type=password], input[type=email], input[type=number],input[type=tel], textarea,
+input[type=submit], input[type=button], .button, button,
+blockquote cite,
+.pagination li a, #page-pagination .pagination li.page span, #page-pagination .pagination li.page a,
+.sr-button {
+	font-family: 'Poppins';
+	}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+blockquote,
+nav#main-nav ul > li > a,
+.portfolio-category,
+.post-date,
+.post-cat,
+.pagination li a[data-title]::before,
+.tp-caption.noha-caption {
+	font-family: 'Poppins';
+	}
+	
+	
+	
+/* -----------------------------------------------------------------------------------
+	
+	FONT STYLING
+	___________
+	
+	Change your specefic font settings (weight,size,style,...) if needed
+
+----------------------------------------------------------------------------------- */
+body {
+	font-weight: 300;
+	font-size: 15px; 
+	line-height: 28px;
+	}
+	strong, b, dt { font-weight: 500; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6
+.tp-caption.noha-caption {
+	font-weight: 300;
+	}
+	h1 b, h2 b, h3 b, h4 b, h5 b, h6 b, h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong,
+	.tp-caption.noha-caption strong, .tp-caption.noha-caption b{ font-weight: 500; }
+	.title-alt b, .title-alt strong { font-weight: 500; }
+
+input[type=text], input[type=password], input[type=email], input[type=number],input[type=tel], textarea {
+	font-weight: 400;
+	font-size: 14px;
+	}
+
+input[type=submit], input[type=button], .button, button {
+	font-weight: 400;
+	font-size: 12px;
+	}
+
+select {
+	font-size: 14px;
+	font-weight: 300;
+	}
+
+label {
+	font-weight: 400;
+	font-size: 15px;
+	}
+
+blockquote {
+	font-weight: 300;
+	font-size: 24px; 
+	line-height: 36px;
+	}
+
+blockquote cite {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	}
+
+nav#main-nav ul > li > a {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 32px;
+	height: 32px;
+	}
+
+nav#main-nav ul.sub-menu > li > a {
+	font-weight: 300; 
+	font-size: 16px;
+	line-height: 22px;
+	height: 22px;
+	}
+
+.portfolio-category {
+	font-weight: 300; 
+	letter-spacing: 0.03em;
+	line-height: 1.5em;
+	}
+
+.post-date {
+	font-size: 13px;
+	}
+
+.post-cat {
+	font-size: 13px;
+	font-weight: 400;
+	}
+
+.blog-info .read-more {
+	font-weight: 400;
+	font-size: 13px;
+	}
+
+#page-title .post-meta .meta-author {
+	font-weight: 500;
+	}
+
+.comments .comment-reply-link, .comments #cancel-comment-reply-link,
+#reply-title {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 22px;
+	}
+
+.pagination li a {
+	font-weight: 400;
+	font-size: 14px;
+	}
+
+.pagination li a[data-title]::before {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	}
+
+#page-pagination .pagination li.page span, #page-pagination .pagination li.page a {
+	font-weight: 400;
+	}
+
+.sr-button {
+	font-weight: 400;
+	}
+
+.widget-title {
+	font-weight: 400;
+	font-size: 13px;
+	}
+
+.widget ul:not(.socialmedia-widget) li a {
+	font-weight: 400;
+	}
+	

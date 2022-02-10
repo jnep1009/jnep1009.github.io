@@ -1,0 +1,26 @@
+
+
+/* Change Page Loader Color */
+#page-loader  { background: #0560D2 !important; }
+
+
+/* Change Header Color */
+header, #menu-inner, #header-actions-overlay { background: #0560D2 !important; }
+
+
+/* Change Footer Border */
+footer { border: none !important; background: #0560D2 !important; }
+
+
+/* Change portfolio thumb hover color */
+.thumb-hover.overlay-color::before { background: rgba(5,96,210,0.8) !important; }
+
+.thumb-hover.overlay-color.general::before{ background: rgba(1,114,252,.8) !important; }
+
+.thumb-hover.overlay-color.piepacker::before{ background: rgba(137,65,234,.8) !important; }
+
+.thumb-hover.overlay-color.mapsenger::before{ background: rgba(111,109,232,.8) !important; }
+
+
+
+/* #1e43e5 !important */
